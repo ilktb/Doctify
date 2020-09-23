@@ -1,0 +1,115 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(../img/041\ Happy\ Acid.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size:200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+strong{
+    font-family: cursive;
+    font-size: 100%;
+}
+label{
+    position: relative;
+    float: left;
+    left:20px;
+    top:-50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    display: inline;
+    z-index: 0;
+}
+#wrapper{
+    text-align: center;
+}
+table, tr{
+    margin-right: 50%;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+}
+.tbHead{
+    color: black;
+}
+.tbBody0{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 5%;
+}
+.tbBody1{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 10%;
+}
+.tbBody2{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 40%;
+}
+.tbBody3{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 5%;
+}
+.tbBody4{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 20%;
+}
+.tbBody5{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 5%;
+}
+.tbBody6{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 10%;
+}
+.tbBody7{
+    background: white;
+    color: black;
+    border: black solid;
+    font-size: 100%;
+    width: 5%;
+}
+#button{
+    text-decoration: none ;
+    font-weight: bold;
+    border: solid black 1px;
+    color: black;
+    background:#39EABC;
+    opacity: 0.8;
+    position:relative;
+    float:right;
+    top:-60px;
+    right:30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#button:hover{
+    opacity: 1.5;
+    transform:scale(1.1,1.1);
+}

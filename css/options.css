@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+body{
+    background-image:url(../img/041\ Happy\ Acid.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#home{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+}
+#home:hover{
+    transform: scale(1.1,1.1);
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+
+hr{
+    color: white;
+    size:5px;
+} 
+p{
+    color:white;
+    font-size: 200%;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%; 
+    text-shadow: 1px 1px black;
+}
+
+.button{
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+    border:solid white;
+    border-collapse: separate;
+    border-spacing: 150px 150px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 1;
+    transform:scale(1.1,1.1);
+}
+
+#wrapper{
+    text-align: center;
+}
+#wrapper a{
+    color:#681fa1;
+}
+.op{
+    font-size: 25px;
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+h1{
+    font-family: cursive;
+}
+#home{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 30px;
+}
+#home:hover{
+    transform: scale(1.1,1.1);
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+
+hr{
+    color: white;
+    size:5px;
+} 
+body{
+    background-image:url(../img/041\ Happy\ Acid.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+form{
+
+    background: white;
+    margin-top: 150px;
+    padding: 50px;
+    padding-top: 0px;
+    display: inline-block;
+    border:solid black 2px;
+    border-radius: 30px;
+    text-align: center;
+}
+input
+{
+    height: 25px;
+    width: 290px;
+    border-radius: 10px;
+    border:solid black;
+    border-width: 0.5px;
+    padding-left: 5px;
+}
+.button4{
+    font-size: 20px;
+    background-color:  	#6EB3D0;
+    cursor: pointer;
+    font-family: cursive;
+    height: 35px;
+    width: 295px;
+}
